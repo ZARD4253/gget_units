@@ -1,0 +1,14 @@
+project_root/
+│
+├─ parsers/                # 개별 파싱 기능 모듈
+│   ├─ weapons.py          # 무장 파싱
+│   ├─ movement.py         # 이동력 파싱
+│   ├─ terrain.py          # 지형적성 파싱
+│   ├─ abilities.py        # 어빌리티 파싱
+│   ├─ mechanism.py        # 기구 파싱
+│   └─ __init__.py         # 패키지 초기화
+│
+├─ unit_parser.py          # 기체 전체 파싱 (parsers 모듈들을 불러와서 조합)
+├─ main.py                 # 실행 진입점
+├─ input.json              # 입력 데이터
+└─ output.json             # 결과 저장 파일

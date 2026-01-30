@@ -1,0 +1,1422 @@
+[
+  {
+    "unit_id": "U6ac21995",
+    "name": "バーニング・ファイヤEX",
+    "power": 5520,
+    "range": {
+      "min": 1,
+      "max": 5,
+      "text": "1-5"
+    },
+    "elements": [
+      "ビーム",
+      "特殊",
+      "射撃",
+      "格闘",
+      "覚醒"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "絶対命中",
+      "武装属性ダメージ軽減無効",
+      "物理武装被ダメ上昇"
+    ],
+    "effect_text": "ビーム 特殊 ｜ 射撃 格闘 覚醒 POWER： 5,520 RANGE： 1-5 絶対命中 武装属性ダメージ軽減無効 敵に「物理武装による被ダメージ 35% 上昇」を付与(1ターン)",
+    "max_effect_percent": 35
+  },
+  {
+    "unit_id": "U093fd1bb",
+    "name": "空合拳底気EX",
+    "power": 7560,
+    "range": {
+      "min": 1,
+      "max": 3,
+      "text": "1-3"
+    },
+    "elements": [
+      "物理",
+      "特殊",
+      "射撃",
+      "格闘",
+      "覚醒"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "絶対命中",
+      "武装属性ダメージ軽減無効",
+      "残HP少ないほど武器POWER上昇"
+    ],
+    "effect_text": "物理 特殊 ｜ 射撃 格闘 覚醒 POWER： 7,560 RANGE： 1-3 絶対命中 武装属性ダメージ軽減無効 自身の残HPが少ないほど武装POWERが上昇(最大 17% 上昇)",
+    "max_effect_percent": 17
+  },
+  {
+    "unit_id": "U595394cb",
+    "name": "ツイン・ビームランチャー",
+    "power": 3720,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 3,720 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U6047fdb0",
+    "name": "スクリューウェップ",
+    "power": 3600,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 格闘 POWER： 3,600 RANGE： 1-2 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U6047fdb0",
+    "name": "スクリュー・ウェップ EX",
+    "power": 7200,
+    "range": {
+      "min": 1,
+      "max": 3,
+      "text": "1-3"
+    },
+    "elements": [
+      "ビーム",
+      "物理",
+      "射撃",
+      "格闘",
+      "覚醒"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "絶対命中",
+      "武装属性ダメージ軽減無効",
+      "クリダメ上昇"
+    ],
+    "effect_text": "ビーム 物理 ｜ 射撃 格闘 覚醒 POWER： 7,200 RANGE： 1-3 絶対命中 武装属性ダメージ軽減効果 自身のクリティカルダメージが 35% 上昇",
+    "max_effect_percent": 35
+  },
+  {
+    "unit_id": "Ude48cf79",
+    "name": "5連型中型ミサイルポッド",
+    "power": 3600,
+    "range": {
+      "min": 2,
+      "max": 4,
+      "text": "2-4"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 3,600 RANGE： 2-4 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U3e0fcb6a",
+    "name": "シェツルム・ファウスト",
+    "power": 3120,
+    "range": {
+      "min": 1,
+      "max": 3,
+      "text": "1-3"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 3,120 RANGE： 1-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Uac94ce43",
+    "name": "200mm×25口径長潤咥砲",
+    "power": 4080,
+    "range": {
+      "min": 2,
+      "max": 3,
+      "text": "2-3"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 4,080 RANGE： 2-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U8b97d07f",
+    "name": "250mm×25口径長滑膣砲(宇宙型)",
+    "power": 4080,
+    "range": {
+      "min": 2,
+      "max": 3,
+      "text": "2-3"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 4,080 RANGE： 2-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U83c90210",
+    "name": "MA-MO2G シュペールラケルタビームサーベル",
+    "power": 4200,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 4,200 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U8db58582",
+    "name": "アンビデクストラス・ハルバート",
+    "power": 4200,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 4,200 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Ud27ac49c",
+    "name": "75m対空自動バルカン砲塔システム「イーゲルシュテルン」",
+    "power": 2760,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 2,760 RANGE： 1-2 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Ue5e35389",
+    "name": "胸部グレネード・ランチャー",
+    "power": 3960,
+    "range": {
+      "min": 2,
+      "max": 3,
+      "text": "2-3"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 3,960 RANGE： 2-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Ua481bb01",
+    "name": "ツインバイル",
+    "power": 4680,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "機動力減少"
+    ],
+    "effect_text": "物理 ｜ 格闘 POWER： 4,680 RANGE： 1-2 敵に「機動力 25% 減少」を付与(1ターン)",
+    "max_effect_percent": 25
+  },
+  {
+    "unit_id": "Ua481bb01",
+    "name": "ツインバイル",
+    "power": 5030,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "機動力減少"
+    ],
+    "effect_text": "物理 ｜ 格闘 POWER： 5,030 RANGE： 1-2 敵に「機動力 25% 減少」を付与(1ターン)",
+    "max_effect_percent": 25
+  },
+  {
+    "unit_id": "Ue7b1c5be",
+    "name": "MA-221 ユーディキウムビームライフル",
+    "power": 4080,
+    "range": {
+      "min": 1,
+      "max": 3,
+      "text": "1-3"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 射撃 POWER： 4,080 RANGE： 1-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Uf6b3813a",
+    "name": "M2000GX 高エネルギー長距離ビーム砲",
+    "power": 5040,
+    "range": {
+      "min": 3,
+      "max": 5,
+      "text": "3-5"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 射撃 POWER： 5,040 RANGE： 3-5 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Uf30eab4f",
+    "name": "ビームディフーズガン",
+    "power": 4080,
+    "range": {
+      "min": 2,
+      "max": 4,
+      "text": "2-4"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "攻撃力減少"
+    ],
+    "effect_text": "ビーム ｜ 射撃 POWER： 4,080 RANGE： 2-4 敵に「攻撃力 25% 減少」を付与(1ターン)",
+    "max_effect_percent": 25
+  },
+  {
+    "unit_id": "Uf30eab4f",
+    "name": "ビームディフーズガン",
+    "power": 4430,
+    "range": {
+      "min": 2,
+      "max": 4,
+      "text": "2-4"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "攻撃力減少"
+    ],
+    "effect_text": "ビーム ｜ 射撃 POWER： 4,430 RANGE： 2-4 敵に「攻撃力 25% 減少」を付与(1ターン)",
+    "max_effect_percent": 25
+  },
+  {
+    "unit_id": "U97961b78",
+    "name": "補給機能(MAP)",
+    "power": 0,
+    "range": {
+      "min": 0,
+      "max": 0,
+      "text": "MAP兵器"
+    },
+    "elements": [
+      "HP"
+    ],
+    "is_map": true,
+    "map_type": "範囲4",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "味方HP回復"
+    ],
+    "effect_text": "HP 補給タイプ RANGE： MAP兵器 範囲内にいる味方のHPを 20% 回復",
+    "max_effect_percent": 20
+  },
+  {
+    "unit_id": "U97961b78",
+    "name": "ガトリング砲",
+    "power": 4080,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 4,080 RANGE： 1-2 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U97961b78",
+    "name": "3連装対艦大型ミサイル",
+    "power": 4320,
+    "range": {
+      "min": 3,
+      "max": 4,
+      "text": "3-4"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 4,320 RANGE： 3-4 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U97961b78",
+    "name": "大出力メガ粒子砲 EX",
+    "power": 5880,
+    "range": {
+      "min": 1,
+      "max": 4,
+      "text": "1-4"
+    },
+    "elements": [
+      "ビーム",
+      "特殊",
+      "射撃",
+      "格闘",
+      "覚醒"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "絶対命中",
+      "武装属性ダメージ軽減無効",
+      "ビーム武装被ダメ上昇"
+    ],
+    "effect_text": "ビーム 特殊 ｜ 射撃 格闘 覚醒 POWER： 5,880 RANGE： 1-4 絶対命中 武装属性ダメージ軽減無効 敵に「ビーム武装による被ダメージ 35% 上昇」を付与(1ターン)",
+    "max_effect_percent": 35
+  },
+  {
+    "unit_id": "Ud736a27d",
+    "name": "阿頼耶識TypeE EX",
+    "power": 6960,
+    "range": {
+      "min": 1,
+      "max": 4,
+      "text": "1-4"
+    },
+    "elements": [
+      "物理",
+      "特殊",
+      "射撃",
+      "格闘",
+      "覚醒"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "絶対命中",
+      "武装属性ダメージ軽減無効",
+      "特殊武装POWER減少"
+    ],
+    "effect_text": "物理 特殊 ｜ 射撃 格闘 覚醒 POWER： 6,960 RANGE： 1-4 絶対命中 武装属性ダメージ軽減無効 敵に「特殊武装POWER 35% 減少」を付与(1ターン)",
+    "max_effect_percent": 35
+  },
+  {
+    "unit_id": "Ud5c4a58d",
+    "name": "ハイドボンプ(MAP)",
+    "power": 2880,
+    "range": {
+      "min": 0,
+      "max": 0,
+      "text": "MAP兵器"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": true,
+    "map_type": "ギャン",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "絶対命中"
+    ],
+    "effect_text": "物理 ｜ 射撃 POWER： 2,880 RANGE： MAP兵器 絶対命中",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Ucf1ffc04",
+    "name": "4連装180mmミサイル・ポッド",
+    "power": 3600,
+    "range": {
+      "min": 2,
+      "max": 4,
+      "text": "2-4"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "敵から遠いほど武装POWER上昇"
+    ],
+    "effect_text": "物理 ｜ 射撃 POWER： 3,600 RANGE： 2-4 敵から遠いほど武装POWERが上昇(最大 10% 上昇)",
+    "max_effect_percent": 10
+  },
+  {
+    "unit_id": "Ucf1ffc04",
+    "name": "4連装180mmミサイル・ポッド",
+    "power": 3950,
+    "range": {
+      "min": 2,
+      "max": 4,
+      "text": "2-4"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "敵から遠いほど武装POWER上昇"
+    ],
+    "effect_text": "物理 ｜ 射撃 POWER： 3,950 RANGE： 2-4 敵から遠いほど武装POWERが上昇(最大 10% 上昇)",
+    "max_effect_percent": 10
+  },
+  {
+    "unit_id": "U0bd9bd8c",
+    "name": "MA-M20 ルブスビームライフル",
+    "power": 3840,
+    "range": {
+      "min": 1,
+      "max": 3,
+      "text": "1-3"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 射撃 POWER： 3,840 RANGE： 1-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U0bd9bd8c",
+    "name": "MA-M20 ルブスビームライフル",
+    "power": 3840,
+    "range": {
+      "min": 1,
+      "max": 4,
+      "text": "1-4"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 射撃 POWER： 3,840 RANGE： 1- 4 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Uf3eb034a",
+    "name": "MMI-GAU2 ビクウス76mm近接防御機関砲",
+    "power": 3360,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 3,360 RANGE： 1-2 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U64e2048c",
+    "name": "超高インパルス長距離狙撃ライフル",
+    "power": 4200,
+    "range": {
+      "min": 3,
+      "max": 4,
+      "text": "3-4"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 射撃 POWER： 4,200 RANGE： 3-4 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U64e2048c",
+    "name": "超高インパルス長距離狙撃ライフル",
+    "power": 4550,
+    "range": {
+      "min": 3,
+      "max": 6,
+      "text": "3-6"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "ビーム武装被ダメ上昇"
+    ],
+    "effect_text": "ビーム ｜ 射撃 POWER： 4,550 RANGE： 3- 6 敵に「ビーム武装による被ダメージ 10% 上昇」を付与(1ターン)",
+    "max_effect_percent": 10
+  },
+  {
+    "unit_id": "U64e2048c",
+    "name": "超高インパルス長距離狙撃ライフル SSP",
+    "power": 5760,
+    "range": {
+      "min": 3,
+      "max": 6,
+      "text": "3-6"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "防御力減少"
+    ],
+    "effect_text": "ビーム ｜ 射撃 POWER： 5,760 RANGE： 3-6 敵に「防御力 30% 減少」を付与(1ターン)",
+    "max_effect_percent": 30
+  },
+  {
+    "unit_id": "U6dfecfce",
+    "name": "ビアサーロック「グレイプニール」",
+    "power": 3120,
+    "range": {
+      "min": 2,
+      "max": 3,
+      "text": "2-3"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 格闘 POWER： 3,120 RANGE： 2-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U2d083f76",
+    "name": "ビームサービル",
+    "power": 3960,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 3,960 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U3d2de96f",
+    "name": "M68バルデュス3連装短距離誘導弾発射筒",
+    "power": 4080,
+    "range": {
+      "min": 2,
+      "max": 4,
+      "text": "2-4"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 4,080 RANGE： 2-4 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U59c4ce19",
+    "name": "MA-MO 1 ラケルタビームサーベル",
+    "power": 3720,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 3,720 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U59c4ce19",
+    "name": "MA-M20 ルブスビームライフル",
+    "power": 3840,
+    "range": {
+      "min": 1,
+      "max": 3,
+      "text": "1-3"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 射撃 POWER： 3,840 RANGE： 1-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Uc836288a",
+    "name": "125mm2連装高エネルギー長距離ビーム砲「シュラーク」 SSP",
+    "power": 5760,
+    "range": {
+      "min": 2,
+      "max": 6,
+      "text": "2-6"
+    },
+    "elements": [
+      "ビーム",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "防御力減少"
+    ],
+    "effect_text": "ビーム ｜ 射撃 POWER： 5,760 RANGE： 2-6 敵に「防御力 30% 減少」を付与(1ターン)",
+    "max_effect_percent": 30
+  },
+  {
+    "unit_id": "Ub77cc109",
+    "name": "ESO 1 ビームサーベル",
+    "power": 3960,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 3,960 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U44a0e112",
+    "name": "ESO 1 ビームサーベル",
+    "power": 3720,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 3,720 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U97c03d94",
+    "name": "ESO 1 ビームサーベル",
+    "power": 3960,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 3,960 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Udfe65d9f",
+    "name": "ESO 1 ビームサーベル",
+    "power": 3960,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 3,960 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U62af93d7",
+    "name": "ESO 1 ビームサーベル",
+    "power": 3960,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 3,960 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U62af93d7",
+    "name": "M703 57MMビームライフル",
+    "power": 0,
+    "range": {
+      "min": 0,
+      "max": 0,
+      "text": ""
+    },
+    "elements": [],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "敵から遠いほど武装POWER上昇"
+    ],
+    "effect_text": "RANGE： 敵から遠いほど武装POWERが上昇(最大 5% 上昇)",
+    "max_effect_percent": 5
+  },
+  {
+    "unit_id": "Ua099788b",
+    "name": "ビームシャべリン",
+    "power": 3720,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 3,720 RANGE： 1-2 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U21b1189f",
+    "name": "ノンキティックポッド",
+    "power": 5400,
+    "range": {
+      "min": 1,
+      "max": 4,
+      "text": "1-4"
+    },
+    "elements": [
+      "特殊",
+      "射撃",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "特殊 ｜ 射撃 格闘 POWER： 5,400 RANGE： 1-4 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U15b82cd4",
+    "name": "75m対空自動バルカン砲塔システム「イーゲルシュテルン」",
+    "power": 3600,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 3,600 RANGE： 1-2 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Uf09b9f84",
+    "name": "頭部ミサイル・ポッド",
+    "power": 3600,
+    "range": {
+      "min": 2,
+      "max": 4,
+      "text": "2-4"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "攻撃力減少"
+    ],
+    "effect_text": "物理 ｜ 射撃 POWER： 3,600 RANGE： 2-4 敵に「攻撃力 25% 減少」を付与(1ターン)",
+    "max_effect_percent": 25
+  },
+  {
+    "unit_id": "U89adaa92",
+    "name": "MA-M80Sデファイアント改ビームジェベリン",
+    "power": 4560,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 4,560 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Ud1871785",
+    "name": "MA-941 ヴァジュラビームサーベル",
+    "power": 4320,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 4,320 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U7c62d27a",
+    "name": "MA-M80 デファイアントビームジェベリン",
+    "power": 4200,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "ビーム",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "ビーム ｜ 格闘 POWER： 4,200 RANGE： 1-1 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U138e25f0",
+    "name": "MA-BAR72 フォールディングレイザー対装甲ナイフ SSP",
+    "power": 5580,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "クリダメ上昇"
+    ],
+    "effect_text": "物理 ｜ 格闘 POWER： 5,580 RANGE： 1-2 自身のクリティカルダメージが 30% 上昇",
+    "max_effect_percent": 30
+  },
+  {
+    "unit_id": "U34022139",
+    "name": "MMI-M20S ボルクス Ⅳ レールガン",
+    "power": 4200,
+    "range": {
+      "min": 1,
+      "max": 3,
+      "text": "1-3"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 4,200 RANGE： 1-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "Ue9323ca6",
+    "name": "サーべ",
+    "power": 3840,
+    "range": {
+      "min": 1,
+      "max": 3,
+      "text": "1-3"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 格闘 POWER： 3,840 RANGE： 1-3 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U8329caf7",
+    "name": "3連ロケット・ランチャー SSP",
+    "power": 5400,
+    "range": {
+      "min": 2,
+      "max": 4,
+      "text": "2-4"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "敵から遠いほど武装POWER上昇"
+    ],
+    "effect_text": "物理 ｜ 射撃 POWER： 5,400 RANGE： 2-4 敵から遠いほど武装POWERが上昇(最大 15% 上昇)",
+    "max_effect_percent": 15
+  },
+  {
+    "unit_id": "U388f72e6",
+    "name": "胸部110mm機関砲",
+    "power": 3600,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [],
+    "effect_text": "物理 ｜ 射撃 POWER： 3,600 RANGE： 1-2 効果なし",
+    "max_effect_percent": 0
+  },
+  {
+    "unit_id": "U3194418d",
+    "name": "クロウ・パー",
+    "power": 4440,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "機動力減少"
+    ],
+    "effect_text": "物理 ｜ 格闘 POWER： 4,440 RANGE： 1-1 敵に「機動力 20% 減少」を付与(1ターン)",
+    "max_effect_percent": 20
+  },
+  {
+    "unit_id": "U3194418d",
+    "name": "クロウ・パー",
+    "power": 4790,
+    "range": {
+      "min": 1,
+      "max": 1,
+      "text": "1-1"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "機動力減少"
+    ],
+    "effect_text": "物理 ｜ 格闘 POWER： 4,790 RANGE： 1-1 敵に「機動力 20% 減少」を付与(1ターン)",
+    "max_effect_percent": 20
+  },
+  {
+    "unit_id": "U3194418d",
+    "name": "クロウ・パー SSP",
+    "power": 5820,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "攻撃力減少"
+    ],
+    "effect_text": "物理 ｜ 格闘 POWER： 5,820 RANGE： 1-2 敵に「攻撃力 30% 減少」を付与(1ターン)",
+    "max_effect_percent": 30
+  },
+  {
+    "unit_id": "U29ed8c20",
+    "name": "ガトリング砲",
+    "power": 4080,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "通常",
+    "is_ssp": false,
+    "effect_tags": [
+      "残HP少ないほど武器POWER上昇"
+    ],
+    "effect_text": "物理 ｜ 射撃 POWER： 4,080 RANGE： 1-2 自身の残HPが少ないほど武装POWERが上昇(最大 10% 上昇)",
+    "max_effect_percent": 10
+  },
+  {
+    "unit_id": "U29ed8c20",
+    "name": "ガトリング砲",
+    "power": 4430,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "残HP少ないほど武器POWER上昇"
+    ],
+    "effect_text": "物理 ｜ 射撃 POWER： 4,430 RANGE： 1-2 自身の残HPが少ないほど武装POWERが上昇(最大 12 %上昇)",
+    "max_effect_percent": 12
+  },
+  {
+    "unit_id": "U29ed8c20",
+    "name": "3連装大型対艦ミサイル SSP",
+    "power": 5520,
+    "range": {
+      "min": 3,
+      "max": 4,
+      "text": "3-4"
+    },
+    "elements": [
+      "物理",
+      "射撃"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "残HP多いほど武器POWER上昇"
+    ],
+    "effect_text": "物理 ｜ 射撃 POWER： 5,520 RANGE： 3-4 自身の残HPが多いほど武装POWERが上昇(最大 15% 上昇)",
+    "max_effect_percent": 15
+  },
+  {
+    "unit_id": "Uac75fc33",
+    "name": "シールド・ピック SSP",
+    "power": 5580,
+    "range": {
+      "min": 1,
+      "max": 2,
+      "text": "1-2"
+    },
+    "elements": [
+      "物理",
+      "格闘"
+    ],
+    "is_map": false,
+    "map_type": "",
+    "ssp": "SSP化後",
+    "is_ssp": true,
+    "effect_tags": [
+      "物理武装POWER減少"
+    ],
+    "effect_text": "物理 ｜ 格闘 POWER： 5,580 RANGE： 1-2 敵に「物理武装POWER 30% 減少」を付与(1ターン)",
+    "max_effect_percent": 30
+  }
+]
