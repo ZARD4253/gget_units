@@ -1,0 +1,60 @@
+name: Auto Update Game Data
+
+# 언제 실행할지 설정
+on:
+  schedule:
+    # 매일 한국 시간 새벽 4시 (UTC 19:00)에 실행
+    # cron 문법: '분 시 일 월 요일' (UTC 기준)
+    - cron: '0 19 * * *' 
+  workflow_dispatch: # 수동으로 버튼 눌러서 실행 가능하게 함
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    # 깃허브 저장소에 파일을 쓸 수 있는 권한 부여 (중요!)
+    permissions:
+      contents: write
+
+    steps:
+    # 1. 저장소 코드 가져오기
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # 2. 파이썬 설치 (3.9 버전 사용 예시)
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    # 3. 필요한 라이브러리 설치
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # 4. 파이프라인 실행 (데이터 수집 및 가공)
+    # run_pipeline.py가 내부적으로 모든 과정을 순차 실행한다고 가정
+    - name: Run Pipeline
+      run: |
+        python run_pipeline.py
+        
+    # 5. JS 변환 실행 (별도로 실행해야 한다면)
+    - name: Convert JSON to JS
+      run: |
+        python convert_json_to_js.py
+
+    # 6. 변경 사항 감지 및 커밋/푸시
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        
+        # 변경된 파일이 있는지 확인
+        git add .
+        
+        # 변경사항이 없으면 에러 안 내고 종료, 있으면 커밋
+        git commit -m "Auto-update: Game data refreshed" || exit 0
+        
+        # GitHub로 푸시
+        git push
