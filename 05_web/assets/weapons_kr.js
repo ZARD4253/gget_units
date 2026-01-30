@@ -878,7 +878,7 @@ const rawWeapons = [
   },
   {
     "unit_id": "U6ac21995",
-    "name": "バーニング・ファイヤEX",
+    "name": "버닝 파이어EX",
     "power": 5520,
     "range": {
       "min": 1,
@@ -1023,7 +1023,7 @@ const rawWeapons = [
   },
   {
     "unit_id": "U595394cb",
-    "name": "ツイン・ビームランチャー",
+    "name": "트윈 빔 런처",
     "power": 3720,
     "range": {
       "min": 1,
@@ -29662,7 +29662,7 @@ const rawWeapons = [
   },
   {
     "unit_id": "U4bb9c860",
-    "name": "다인슬레이브",
+    "name": "다인슬레이브(특수 KEP탄)",
     "power": 3960,
     "range": {
       "min": 0,
@@ -62962,7 +62962,7 @@ const rawWeapons = [
   },
   {
     "unit_id": "U23cdb897",
-    "name": "빔 개틀링 건",
+    "name": "빔 개틀링 건(제로 거리)",
     "power": 3900,
     "range": {
       "min": 1,
