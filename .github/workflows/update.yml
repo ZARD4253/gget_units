@@ -1,0 +1,74 @@
+name: Update Game Data
+
+on:
+  workflow_dispatch:  # 수동 실행 (긴급 업데이트용)
+  schedule:
+    # 화요일, 금요일 오전 4시 (UTC) = 한국 시간 오후 1시
+    - cron: '0 4 * * 2,5'
+    
+    # ═══════════════════════════════════════════════════════════
+    # 시간대 참고 (UTC 기준 → 한국 시간 KST는 +9시간)
+    # ═══════════════════════════════════════════════════════════
+    # '0 4 * * 2,5'   → 한국 13시 (오후 1시) - 현재 설정
+    # '0 8 * * 2,5'   → 한국 17시 (오후 5시) - appmedia 업데이트 후
+    # '0 12 * * 2,5'  → 한국 21시 (오후 9시) - 저녁 시간
+    # '0 15 * * 2,5'  → 한국 00시 (자정)
+    # '0 18 * * 2,5'  → 한국 03시 (새벽)
+    # 
+    # 요일 참고:
+    # 0 = 일요일, 1 = 월요일, 2 = 화요일, 3 = 수요일
+    # 4 = 목요일, 5 = 금요일, 6 = 토요일
+    # 
+    # 예시:
+    # - cron: '0 4 * * *'        # 매일 한국 13시
+    # - cron: '0 4 * * 1,4'      # 월요일, 목요일 한국 13시
+    # - cron: '0 4 * * 1'        # 매주 월요일 한국 13시
+    # ═══════════════════════════════════════════════════════════
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Run data pipeline
+        run: |
+          python run_pipeline.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto update: $(date +'%Y-%m-%d %H:%M')"
+          git push
+      
+      - name: Create version tag
+        if: success()
+        run: |
+          # 날짜 기반 버전 태그 (예: v2026.01.31)
+          TAG="v$(date +'%Y.%m.%d')"
+          
+          # 같은 날 여러 번 실행 시 -1, -2 추가
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            COUNT=1
+            while git rev-parse "$TAG-$COUNT" >/dev/null 2>&1; do
+              COUNT=$((COUNT + 1))
+            done
+            TAG="$TAG-$COUNT"
+          fi
+          
+          git tag $TAG
+          git push origin $TAG
+          echo "✅ Created tag: $TAG"
